@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "604662245409",
+    "firebase_url": "https://iworld-f7078.firebaseio.com",
+    "project_id": "iworld-f7078",
+    "storage_bucket": "iworld-f7078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604662245409:android:d3bd674d57300bfe",
+        "android_client_info": {
+          "package_name": "com.example.spikee.iworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604662245409-hh0mf1go5p82r5h0p6v3vjmpeicl641b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spikee.iworld",
+            "certificate_hash": "ab7355c147bd332c53c2f24c4c165a54eed65e2e"
+          }
+        },
+        {
+          "client_id": "604662245409-1kghlrl7d960v259blko6dfsvpqk01j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3fdOmQKbCuEVzkL1Z3AG1FRXw-KPTDJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604662245409-1kghlrl7d960v259blko6dfsvpqk01j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

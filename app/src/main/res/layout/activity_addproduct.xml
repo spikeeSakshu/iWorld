@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".addproduct">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD PRODUCT"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nameTl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/modelTl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/modelEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+            android:hint="Model No."
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/priceTl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/priceEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+            android:hint="Price"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/categoryTl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/categoryEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Category (iphone, ipad, imac)"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/descTl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/descEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Description"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp">
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="start"
+            android:text="ADD PRODUCT"
+            android:background="#f73"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/view"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="View Product"
+            android:background="#f73"
+            android:gravity="center"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
